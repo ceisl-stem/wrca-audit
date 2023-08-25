@@ -1,0 +1,446 @@
+﻿course,lesson,activity,rep_verb,rep_object,exp_verb,exp_object,dok,sequence
+Visual Arts,1,1.0.1,read,text,NA,NA,NA,NA
+Visual Arts,1,1.0.2,read,text,complete,quiz,NA,NA
+Visual Arts,1,1.1,offload,assignment,NA,NA,NA,NA
+Visual Arts,1,1.1,read,chapter,write,post,2,1
+Visual Arts,1,1.2,read,chapter,write,summary,1,2
+Visual Arts,1,1.2,watch,video,write,summary,1,2
+Visual Arts,1,1.2,read,chapter,create,photograph,1,2
+Visual Arts,1,1.2,watch,video,create,photograph,1,2
+Visual Arts,1,1.2,read,chapter,write,post,2,2
+Visual Arts,1,1.2,watch,video,write,post,2,2
+Visual Arts,1,1.3,read,chapter,create,document,2,3
+Visual Arts,1,1.3,watch,video,create,document,2,3
+Visual Arts,1,1.4,read,text,create,poster,2,4
+Visual Arts,1,1.5,read,chapter,write,response,2,5
+Visual Arts,1,1.6,read,text,complete,quiz,NA,NA
+Visual Arts,2,2.0.1,read,text,NA,NA,NA,NA
+Visual Arts,2,2.0.2,read,text,complete,quiz,NA,NA
+Visual Arts,2,2.1,read,text,create,drawing,1,1
+Visual Arts,2,2.1,watch,video,create,drawing,1,1
+Visual Arts,2,2.2,read,text,create,drawing,1,2
+Visual Arts,2,2.2,watch,video,create,drawing,1,2
+Visual Arts,2,2.2,read,text,write,post,2,2
+Visual Arts,2,2.2,watch,video,write,post,2,2
+Visual Arts,2,2.3,read,text,create,drawing,1,3
+Visual Arts,2,2.3,watch,video,create,drawing,1,3
+Visual Arts,2,2.4,read,text,create,drawing,2,4
+Visual Arts,2,2.4,watch,video,create,drawing,2,4
+Visual Arts,2,2.5,read,article,create,photograph,2,5
+Visual Arts,2,2.5,watch,video,create,photograph,2,5
+Visual Arts,2,2.6,read,text,create,drawing,2,6
+Visual Arts,2,2.6,watch,video,create,drawing,2,6
+Visual Arts,2,2.7,read,text,write,response,2,7
+Visual Arts,2,2.7,read,chapter,write,response,2,7
+Visual Arts,2,2.8,read,text,complete,quiz,NA,NA
+Visual Arts,3,3.0.1,read,text,NA,NA,NA,NA
+Visual Arts,3,3.0.2,read,text,complete,quiz,NA,NA
+Visual Arts,3,3.1,watch,video,create,painting,2,1
+Visual Arts,3,3.2,read,article,create,document,2,2
+Visual Arts,3,3.2,visit,musuem,create,document,2,3
+Visual Arts,3,3.2,view,images,create,document,2,4
+Visual Arts,3,3.3,read,slides,write,response,1,5
+Visual Arts,3,3.4,read,slides,create,painting,2,6
+Visual Arts,3,3.5,watch,video,create,photograph,2,7
+Visual Arts,3,3.6,watch,video,create,painting,2,8
+Visual Arts,3,3.7,read,chapter,write,response,3,9
+Visual Arts,3,3.7,read,document,write,response,3,10
+Visual Arts,3,3.8,read,text,complete,quiz,NA,NA
+Visual Arts,4,4.0.1,read,text,NA,NA,NA,NA
+Visual Arts,4,4.0.2,read,text,complete,quiz,NA,NA
+Visual Arts,4,4.1,watch,video,write,post,2,1
+Visual Arts,4,4.2,watch,video,write,post,1,2
+Visual Arts,4,4.2,view,images,write,post,1,2
+Visual Arts,4,4.2,watch,video,write,response,1,2
+Visual Arts,4,4.2,view,images,write,response,1,2
+Visual Arts,4,4.3,read,text,create,collage,2,3
+Visual Arts,4,4.4,read,text,write,response,3,4
+Visual Arts,4,4.5,read,text,complete,quiz,NA,NA
+Visual Arts,5,5.0.1,read,text,NA,NA,NA,NA
+Visual Arts,5,5.0.2,read,text,complete,quiz,NA,NA
+Visual Arts,5,5.1,watch,video,write,post,1,1
+Visual Arts,5,5.1,visit,museum,write,post,1,1
+Visual Arts,5,5.1,view,images,write,post,1,1
+Visual Arts,5,5.2,read,article,create,sculpture,2,2
+Visual Arts,5,5.2,view,images,create,sculpture,2,2
+Visual Arts,5,5.3,read,article,write,post,3,3
+Visual Arts,5,5.3,read,article,write,response,3,3
+Visual Arts,5,5.4,read,text,complete,quiz,NA,NA
+Visual Arts,5,6.0.1,read,text,NA,NA,NA,NA
+Visual Arts,5,6.0.2,read,text,complete,quiz,NA,NA
+Visual Arts,5,6.1,watch,video,answer,questions,3,1
+Visual Arts,5,6.2,view,images,answer,questions,3,2
+Visual Arts,5,6.2,read,text,answer,questions,3,2
+Visual Arts,5,6.3,watch,video,create,design,2,3
+Visual Arts,5,6.3,research,article,create,design,2,3
+Visual Arts,5,6.4,watch,video,create,sculpture,2,4
+Visual Arts,5,6.4,view,images,create,sculpture,2,4
+Visual Arts,5,6.5,read,chapter,write,post,2,5
+Visual Arts,5,6.5,read,chapter,write,response,2,5
+Visual Arts,5,6.6,read,text,complete,quiz,NA,NA
+Visual Arts,7,7.0.1,read,text,NA,NA,NA,NA
+Visual Arts,7,7.0.2,read,text,complete,quiz,NA,NA
+Visual Arts,7,7.1,read,text,create,portfolio,3,NA
+Visual Arts,7,7.2,read,text,complete,quiz,NA,NA
+Exploring College and Careers,1,1.0.1,read,text,NA,NA,NA,NA
+Exploring College and Careers,1,1.0.2,read,text,complete,quiz,NA,NA
+Exploring College and Careers,1,1.1,watch,video,answer,questions,2,1
+Exploring College and Careers,1,1.1,read,article,create,drawing,2,1
+Exploring College and Careers,1,1.1,watch,video,answer,questions,2,1
+Exploring College and Careers,1,1.1,read,article,create,drawing,2,1
+Exploring College and Careers,1,1.1,offload,assignment,NA,NA,NA,NA
+Exploring College and Careers,1,1.2,offload,assiggnment,NA,NA,NA,NA
+Exploring College and Careers,1,1.2,watch,video,create,document,1,2
+Exploring College and Careers,1,1.3,watch,video,write,post,1,3
+Exploring College and Careers,1,1.3,watch,video,write,response,1,3
+Exploring College and Careers,1,1.4,offload,assignment,NA,NA,NA,4
+Exploring College and Careers,1,1.4,read,text,create,document,2,4
+Exploring College and Careers,1,1.5,read,text,complete,quiz,NA,NA
+Exploring College and Careers,2,2.0.1,read,text,NA,NA,NA,NA
+Exploring College and Careers,2,2.0.2,read,text,complete,quiz,NA,NA
+Exploring College and Careers,2,2.1,watch,video,answer,questions,1,1
+Exploring College and Careers,2,2.1,read,text,complete,worksheet,1,1
+Exploring College and Careers,2,2.2,offload,assignment,NA,NA,NA,2
+Exploring College and Careers,2,2.2,offload,assignment,NA,NA,NA,2
+Exploring College and Careers,2,2.3,watch,video,answer,questions,2,3
+Exploring College and Careers,2,2.3,read,text,answer,questions,2,3
+Exploring College and Careers,2,2.3,research,article,answer,questions,2,3
+Exploring College and Careers,2,2.4,offload,assignment,NA,NA,NA,4
+Exploring College and Careers,2,2.4,read,slides,write,response,2,4
+Exploring College and Careers,2,2.5,read,text,create,document,2,5
+Exploring College and Careers,2,2.6,read,text,complete,quiz,NA,NA
+Exploring College and Careers,3,3.0.1,read,text,NA,NA,NA,NA
+Exploring College and Careers,3,3.0.2,read,text,complete,quiz,NA,NA
+Exploring College and Careers,3,3.1,read,text,complete,worksheet,2,1
+Exploring College and Careers,3,3.1,watch,video,complete,worksheet,2,1
+Exploring College and Careers,3,3.2,watch,video,offload,assignment,2,2
+Exploring College and Careers,3,3.3,watch,video,create,collage (vision board),2,3
+Exploring College and Careers,3,3.4,read,text,write,post,2,4
+Exploring College and Careers,3,3.4,read,text,write,response,2,4
+Exploring College and Careers,3,3.5,read,text,NA,NA,NA,5
+Exploring College and Careers,3,3.6,read,text,create,document,2,6
+Exploring College and Careers,3,3.7,read,text,complete,quiz,NA,NA
+Exploring College and Careers,4,4.0.1,read,text,NA,NA,NA,NA
+Exploring College and Careers,4,4.0.2,read,text,complete,quiz,NA,NA
+Exploring College and Careers,4,4.1,offload,assignment,NA,NA,NA,1
+Exploring College and Careers,4,4.1,read,text,NA,NA,NA,1
+Exploring College and Careers,4,4.2,read,text,complete,worksheet,1,2
+Exploring College and Careers,4,4.3,read,text,answer,questions,2,3
+Exploring College and Careers,4,4.4,watch,video,NA,NA,NA,4
+Exploring College and Careers,4,4.4,read,text,NA,NA,NA,4
+Exploring College and Careers,4,4.5,read,text,complete,interview,2,5
+Exploring College and Careers,4,4.5,watch,video,complete,interview,2,5
+Exploring College and Careers,4,4.6,read,text,comlpete,quiz,NA,NA
+Exploring College and Careers,5,5.0.1,read,text,NA,NA,NA,NA
+Exploring College and Careers,5,5.0.2,read,text,complete,quiz,NA,NA
+Exploring College and Careers,5,5.1,watch,video,complete,worksheet,2,1
+Exploring College and Careers,5,5.2,read,text,complete,quiz,1,2
+Exploring College and Careers,5,5.2,read,text,create,drawing,3,2
+Exploring College and Careers,5,5.3,watch,video,answer,questions,2,3
+Exploring College and Careers,5,5.3,read,slides,answer,questions,2,3
+Exploring College and Careers,5,5.4,read,text,answer,questions,2,4
+Exploring College and Careers,5,5.5,offload,assignment,NA,NA,NA,5
+Exploring College and Careers,5,5.5,watch,video,create,slides,Assignment Missing?,5
+Exploring College and Careers,5,5.6,watch,video,complete,worksheet,1,6
+Exploring College and Careers,5,5.7,read,text,complete,quiz,NA,7
+Principles of Teaching,0,0.1,read,text,NA,NA,NA,NA
+Principles of Teaching,0,0.2,read,text,complete,quiz,NA,NA
+Principles of Teaching,0,0.3,read,text,create,schedule,2,1
+Principles of Teaching,0,0.4.A,read,text,write,post,3,2
+Principles of Teaching,0,0.4.B,read,text,create,post,2,3
+Principles of Teaching,0,0.4.C,read,text,write,post,2,4
+Principles of Teaching,0,0.4.D,read,text,write,post,2,5
+Principles of Teaching,0,0.4.E,read,text,write,post,2,6
+Principles of Teaching,0,0.5,read,text,complete,template,1,7
+Principles of Teaching,0,0.6,read,text,complete,quiz,NA,NA
+Principles of Teaching,9,9.1,read,text,NA,NA,NA,NA
+Principles of Teaching,9,9.2,read,text,complete,quiz,NA,NA
+Principles of Teaching,9,9.3,read,chapter,create,document,3,1
+Principles of Teaching,9,9.3,read,diagram,create,document,3,1
+Principles of Teaching,9,9.4,read,chapter,write,post,2,2
+Principles of Teaching,9,9.4,watch,video,write,post,2,2
+Principles of Teaching,9,9.4,read,article,write,post,2,2
+Principles of Teaching,9,9.5,read,text,complete,quiz,NA,NA
+Principles of Teaching,10,10.1,read,text,NA,NA,NA,NA
+Principles of Teaching,10,10.2,read,text,complete,quiz,NA,NA
+Principles of Teaching,10,10.3,watch,video,create,recording,2,1
+Principles of Teaching,10,10.3,read,infographic,create,recording,2,1
+Principles of Teaching,10,10.3,read,article,create,recording,2,1
+Principles of Teaching,10,10.3,read,interview,create,recording,2,1
+Principles of Teaching,10,10.4,watch,video,write,post,3,2
+Principles of Teaching,10,10.4,read,article,write,post,3,2
+Principles of Teaching,10,10.4,complete,research,write,post,3,2
+Principles of Teaching,10,10.5,read,text,complete,quiz,NA,NA
+Principles of Teaching,11,11.1,read,text,NA,NA,NA,NA
+Principles of Teaching,11,11.2,read,text,complete,quiz,NA,NA
+Principles of Teaching,11,11.3,watch,video,write,summary,1,1
+Principles of Teaching,11,11.3,read,article,write,summary,1,1
+Principles of Teaching,11,11.4,read,text,complete,quiz,1,2
+Principles of Teaching,11,11.4,watch,video,complete,quiz,1,2
+Principles of Teaching,11,11.5,read,text,write,post,3,3
+Principles of Teaching,11,11.5,watch,video,write,post,3,3
+Principles of Teaching,11,11.5,read,article,write,post,3,3
+Principles of Teaching,11,11.6,read,text,complete,quiz,NA,NA
+Principles of Teaching,12,12.1,read,text,NA,NA,NA,NA
+Principles of Teaching,12,12.2,read,text,complete,quiz,NA,NA
+Principles of Teaching,12,12.3,watch,video,create,recording,3,1
+Principles of Teaching,12,12.3,read,chapter,create,recording,3,1
+Principles of Teaching,12,12.3,read,infographic,create,recording,3,1
+Principles of Teaching,12,12.4,watch,video,write,post,2,2
+Principles of Teaching,12,12.4,read,article,write,post,2,2
+Principles of Teaching,12,12.4,read,text,write,post,2,2
+Principles of Teaching,12,12.5,read,article,answer,questions,3,3
+Principles of Teaching,12,12.5,watch,video,answer,questions,3,3
+Principles of Teaching,12,12.5,read,infographic,answer,questions,3,3
+Principles of Teaching,12,12.6,read,text,complete,quiz,NA,NA
+Principles of Teaching,13,13.1,read,text,NA,NA,NA,NA
+Principles of Teaching,13,13.2,read,text,complete,quiz,NA,NA
+Principles of Teaching,13,13.3,watch,video,?,,2,1
+Principles of Teaching,13,13.3,read,article,?,,2,1
+Principles of Teaching,13,13.3,read,website,?,,2,1
+Principles of Teaching,13,13.4,reaad,text,complete,interview,2,2
+Principles of Teaching,13,13.4,read,text,write,report,1,2
+Principles of Teaching,13,13.5,read,article,write,post,1,3
+Principles of Teaching,13,13.5,visit,university,write,post,1,3
+Principles of Teaching,13,13.6,visit,university,create,post,1,4
+Principles of Teaching,13,13.7,read,text,complete,quiz,NA,NA
+Principles of Teaching,14,14.1,read,text,NA,NA,NA,NA
+Principles of Teaching,14,14.2,read,text,complete,quiz,NA,NA
+Principles of Teaching,14,14.3,read,article,write,post,3,1
+Principles of Teaching,14,14.3,watch,video,write,post,3,1
+Principles of Teaching,14,14.3,read,infographic,write,post,3,1
+Principles of Teaching,14,14.4,read,article,create,activity,3,2
+Principles of Teaching,14,14.5,read,posts,write,response,2,3
+Principles of Teaching,14,14.6,read,text,complete,quiz,NA,NA
+Principles of Teaching,15,15.1,read,text,NA,NA,NA,NA
+Principles of Teaching,15,15.2,read,text,complete,quiz,NA,NA
+Principles of Teaching,15,15.3,read,website,solve,form,Not sure; can't see the full activity since it is a Google Form,1
+Principles of Teaching,15,15.4,read,article,create,poster,1,2
+Principles of Teaching,15,15.5,read,text,complete,quiz,NA,NA
+Health and Wellness,1,1.0.1,read,text,NA,NA,NA,NA
+Health and Wellness,1,1.0.2,read,text,answer,poll,NA,NA
+Health and Wellness,1,1.1.1,read,text,write,definition,1,1
+Health and Wellness,1,1.1.2,watch,video,complete,worksheet,1,2
+Health and Wellness,1,1.1.3,watch,video,complete,worksheet,1,3
+Health and Wellness,1,1.1.4,read,text,answer,poll,NA,NA
+Health and Wellness,2,2.0.1,read,text,NA,NA,NA,NA
+Health and Wellness,2,2.0.2,read,text,answer,poll,NA,NA
+Health and Wellness,2,2.1.1,read,text,write,definition,1,1
+Health and Wellness,2,2.1.2,read,article,write,post,1,2
+Health and Wellness,2,2.1.3,read,article,write,post,1,3
+Health and Wellness,2,2.2.1,read,article,write,post,1,4
+Health and Wellness,2,2.2.2,read,article,write,post,1,5
+Health and Wellness,2,2.2.3,read,text,complete,worksheet,1,6
+Health and Wellness,2,2.3.1,read,article,answer ,questions,2,7
+Health and Wellness,2,2.3.2,read,text,write,reflection,2,8
+Health and Wellness,2,2.4.1,read,text,answer,question,2,9
+Health and Wellness,2,2.4.2,read,text,write,reflection,2,10
+Health and Wellness,2,2.4.3,read,text,write,reflection,2,11
+Health and Wellness,2,2.5.1,read,text,answer,poll,NA,NA
+Health and Wellness,3,3.0.1,read,text,NA,NA,NA,NA
+Health and Wellness,3,3.0.2,read,text,answer,poll,NA,NA
+Health and Wellness,3,3.1.1,read,text,search,website,3,1
+Health and Wellness,3,3.1.1,read,scenario,write,answer,3,1
+Health and Wellness,3,3.1.1,read,text,write,reflection,3,1
+Health and Wellness,3,3.1.2,read,scenario,write,answer,2,2
+Health and Wellness,3,3.2.1,read,text,answer,poll,NA,NA
+Health and Wellness,4,4.0.1,read,text,NA,NA,NA,NA
+Health and Wellness,4,4.0.2,read,text,answer,poll,NA,NA
+Health and Wellness,4,4.1.1,watch,video,write,goal,1,1
+Health and Wellness,4,4.1.2,watch,video,revise,goal,2,2
+Health and Wellness,4,4.2.1,read,text,answer,poll,NA,NA
+Health and Wellness,5,5.0.1,read,text,NA,NA,NA,NA
+Health and Wellness,5,5.0.2,watch,video,write,post,1,1
+Health and Wellness,5,5.1.1,watch,video,answer,quiz,1,2
+Health and Wellness,5,5.2.1,read,text,write ,definition,1,3
+Health and Wellness,5,5.2.2,watch,video,answer,questions,2,4
+Health and Wellness,5,5.2.3,read,scenario,write,reflection,2,5
+Health and Wellness,5,5.3.1,read,text,answer,poll,NA,NA
+Health and Wellness,6,6.0.1,read,text,NA,NA,NA,NA
+Health and Wellness,6,6.0.2,read,text,answer,poll,NA,NA
+Health and Wellness,6,6.1.1,watch,video,write,reflection,2,1
+Health and Wellness,6,6.1.2,watch,video,write,definion,1,2
+Health and Wellness,6,6.1.2,watch,video,write,reflection,2,2
+Health and Wellness,6,6.1.3,watch,video,write,post,1,3
+Health and Wellness,6,6.1.4,watch,video,answer,questions,2,4
+Health and Wellness,6,6.2.1,watch,video,answer,questions,2,5
+Health and Wellness,6,6.2.2,watch,video,answer,questions,2,6
+Health and Wellness,6,6.3.1,read,text,answer,poll,NA,NA
+Health and Wellness,7,7.0.1,read,text,NA,NA,NA,NA
+Health and Wellness,7,7.0.2,read,text,answer,poll,NA,NA
+Health and Wellness,7,7.1.1,read,text,write,definition,1,1
+Health and Wellness,7,7.1.1,watch,video,write,post,1,1
+Health and Wellness,7,7.1.2,read,article,complete,worksheet,1,2
+Health and Wellness,7,7.1.2,read,article,write,reflection,2,2
+Health and Wellness,7,7.1.3,read,text,answer,questions,2,3
+Health and Wellness,7,7.1.4,read,text,answer,questions,1,4
+Health and Wellness,7,7.2.1,read,text,answer,poll,NA,NA
+STEM,1,1.0.1,read,text,NA,NA,NA,NA
+STEM,1,1.0.2,read,text,complete,quiz,NA,NA
+STEM,1,1.1,watch,video,complete,worksheet,2,1
+STEM,1,1.2,read,text,write,annotations,2,2
+STEM,1,1.2,read,text,write,post,2,2
+STEM,1,1.3,read,text,complete,worksheet,2,3
+STEM,1,1.4,read,text,write,annotations,2,4
+STEM,1,1.5,read,text,write,questions,2,5
+STEM,1,1.6,read,diagram,complete,worksheet,2,6
+STEM,1,1.7,watch,video,write,summary,2,7
+STEM,1,1.7,read,text,write,summary,2,7
+STEM,1,1.8,read,text,complete,quiz,NA,NA
+STEM,2,2.0.1,read,text,NA,NA,NA,NA
+STEM,2,2.0.2,read,text,complete,quiz,NA,NA
+STEM,2,2.1.1,watch,video,complete,worksheet,2,1
+STEM,2,2.1.2,watch,video,complete,worksheet,2,2
+STEM,2,2.2,read,article,complete,worksheet,2,3
+STEM,2,2.2,watch,video,complete,worksheet,2,3
+STEM,2,2.3,read,article,complete,worksheet,1,4
+STEM,2,2.3,watch,video,complete,worksheet,1,4
+STEM,2,2.4,read,article,complete,worksheet,2,5
+STEM,2,2.5,read,article,complete,worksheet,2,6
+STEM,2,2.6,read,article,complete,worksheet,2,7
+STEM,2,2.7,read,text,complete,quiz,NA,NA
+STEM,3,3.0.1,read,text,NA,NA,NA,NA
+STEM,3,3.0.2,read,text,complete,quiz,NA,NA
+STEM,3,3.1,read,text,complete,worksheet,2,1
+STEM,3,3.2,watch,video,complete,worksheet,2,2
+STEM,3,3.3,read,article,complete,worksheet,2,3
+STEM,3,3.4,read,article,complete,worksheet,2,4
+STEM,3,3.5,NA,NA,complete,worksheet,3,5
+STEM,3,3.6,read,text,complete,quiz,NA,NA
+STEM,4,4.0.1,read,text,NA,NA,NA,NA
+STEM,4,4.0.2,read,text,complete,quiz,NA,NA
+STEM,4,4.1,read,article,complete,worksheet,2,1
+STEM,4,4.2,read,article,complete,worksheet,2,2
+STEM,4,4.3,read,article,complete,worksheet,2,3
+STEM,4,4.4,read,text,complete,worksheet,2,4
+STEM,4,4.5,read,text,complete,worksheet,3,5
+STEM,4,4.6,read,text,complete,quiz,NA,NA
+STEM,5,5.0.1,read,text,NA,NA,NA,NA
+STEM,5,5.0.2,read,text,complete,quiz,NA,NA
+STEM,5,5.1,watch,video,complete,worksheet,1,1
+STEM,5,5.1,read,diagram,complete,worksheet,1,1
+STEM,5,5.2,watch,video,complete,worksheet,2,2
+STEM,5,5.2,read,article,complete,worksheet,2,2
+STEM,5,5.3.1,watch,video,complete,worksheet,2,3
+STEM,5,5.3.2,read,text,write,post,2,4
+STEM,5,5.4,watch,video,complete,worksheet,2,5
+STEM,5,5.4,read,slides,complete,worksheet,2,5
+STEM,5,5.4,read,article,complete,worksheet,2,5
+STEM,5,5.5.1,read,text,complete,worksheet,2,6
+STEM,5,5.5.2,read,text,record,video,2,6
+STEM,5,5.6,read,text,complete,quiz,NA,NA
+STEM,6,6.0.1,read,text,NA,NA,NA,NA
+STEM,6,6.0.2,read,text,complete,quiz,NA,NA
+STEM,6,6.1.1,watch,video,complete,worksheet,2,1
+STEM,6,6.1.1,read,article,complete,worksheet,2,1
+STEM,6,6.1.2,read,text,write,post,2,2
+STEM,6,6.1.3,read,text,complete,worksheet,2,3
+STEM,6,6.2,read,text,complete,worksheet,2,4
+STEM,6,6.3.1,read,text,write,post,2,5
+STEM,6,6.3.2,read,text,complete,worksheet,2,6
+STEM,6,6.4,read,text,create,presentation,3,7
+STEM,6,6.5,read,text,complete,quiz,NA,NA
+Digital Citizenship,1,1,read,text,complete,quiz,NA,NA
+Digital Citizenship,1,1.1,read,text,write,post,2,1
+Digital Citizenship,1,1.2,watch,video,answer,questions,2,2
+Digital Citizenship,1,1.3,read,slides,complete,table,2,3
+Digital Citizenship,1,1.4,watch,video,write,summary,2,4
+Digital Citizenship,1,1.5,watch,video,complete,worksheet,2,5
+Digital Citizenship,1,1.6,read,text,complete,quiz,NA,NA
+Digital Citizenship,2,2,read,text,complete,quiz,NA,NA
+Digital Citizenship,2,2.2,read,slides,write,summary,2,1
+Digital Citizenship,2,2.3,read,text,record,video,2,2
+Digital Citizenship,2,2.4,read,text,write,post,2,3
+Digital Citizenship,2,2.5,read,text,write,post,2,4
+Digital Citizenship,2,2.6,read,text,complete,quiz,NA,NA
+Digital Citizenship,3,3,read,text,complete,quiz,NA,NA
+Digital Citizenship,3,3.1,read,text,NA,NA,NA,NA
+Digital Citizenship,3,3.2,offload,assignment,NA,NA,1,1
+Digital Citizenship,3,3.3,offload,assignment,NA,NA,1,2
+Digital Citizenship,3,3.4,read,slides,complete,worksheet,1,3
+Digital Citizenship,3,3.5,read,text,complete,quiz,NA,NA
+Digital Citizenship,4,4,read,text,complete,quiz,NA,NA
+Digital Citizenship,4,4.1,watch,video,write,email,2,1
+Digital Citizenship,4,4.2,offload,assignment,NA,NA,1,2
+Digital Citizenship,4,4.3,read,text,complete,quiz,NA,NA
+Digital Citizenship,5,5,read,text,complete,quiz,NA,NA
+Digital Citizenship,5,5.1,offload,assignment,NA,NA,1,1
+Digital Citizenship,5,5.2,offload,assignment,NA,NA,1,2
+Digital Citizenship,5,5.3,read,text,complete,quiz,NA,NA
+Digital Citizenship,6,6,read,text,complete,quiz,NA,NA
+Digital Citizenship,6,6.1,watch,video,NA,NA,1,1
+Digital Citizenship,6,6.2,watch,video,NA,NA,1,2
+Digital Citizenship,6,6.3,read,webpage,modify,spreadsheet,1,3
+Digital Citizenship,6,6.4,read,text,write,post,2,4
+Digital Citizenship,6,6.5,watch,video,modify,spreadsheet,1,5
+Digital Citizenship,6,6.6,watch,video,answer,questions,1,6
+Digital Citizenship,6,6.7,read,text,complete,quiz,NA,NA
+Digital Citizenship,7,7,read,text,complete,quiz,NA,NA
+Digital Citizenship,7,7.1,offload,assignment,NA,NA,1,1
+Digital Citizenship,7,7.2,offload,assignment,NA,NA,1,2
+Digital Citizenship,7,7.3,read,text,complete,quiz,NA,NA
+Digital Citizenship,8,8,read,text,complete,quiz,NA,NA
+Digital Citizenship,8,8.1,watch,video,NA,NA,NA,NA
+Digital Citizenship,8,8.2,read,text,modify,image,1,1
+Digital Citizenship,8,8.3,read,text,write,post,1,2
+Digital Citizenship,8,8.4,read,text,complete,quiz,NA,NA
+Computer Science,1,1.1,read,text,complete,quiz,NA,NA
+Computer Science,1,1.2,read,text,NA,NA,NA,NA
+Computer Science,1,1.3,read,text,write,notes,2,1
+Computer Science,1,1.4,read,webpage,write,notes,2,2
+Computer Science,1,1.5,offload,assignment,NA,NA,2,3
+Computer Science,1,1.6,offload,assignment,create,artifact,2,4
+Computer Science,1,1.7,NA,NA,complete,breakout,2,5
+Computer Science,1,1.7,NA,NA,write,reflection,2,5
+Computer Science,1,1.8,NA,NA,complete,quiz,1,6
+Computer Science,1,1.9,read,text,complete,quiz,NA,NA
+Computer Science,2,2.1,read,text,complete,quiz,NA,NA
+Computer Science,2,2.2,read,text,NA,NA,NA,NA
+Computer Science,2,2.3,watch,video,write,notes,2,1
+Computer Science,2,2.4,offload,assignment,write,notes,2,2
+Computer Science,2,2.5,watch,videos,write,notes,2,3
+Computer Science,2,2.6,read,text,write,notes,2,4
+Computer Science,2,2.6,watch,video,write,notes,2,4
+Computer Science,2,2.7,watch,video,write,notes,2,5
+Computer Science,2,2.8,NA,NA,complete,quiz,1,6
+Computer Science,2,2.9,read,text,complete,quiz,NA,NA
+Computer Science,3,3.1,read,text,complete,quiz,NA,NA
+Computer Science,3,3.2,read,text,NA,NA,NA,NA
+Computer Science,3,3.3,read,text,write,notes,2,1
+Computer Science,3,3.4,offload,assignment,write,post,2,2
+Computer Science,3,3.5,offload,assignment,write,notes,2,3
+Computer Science,3,3.6,read,text,write,notes,2,4
+Computer Science,3,3.7,offload,assignment,NA,NA,2,5
+Computer Science,3,3.8,read,text,create,survey,3,6
+Computer Science,3,3.8,watch,video,create,survey,3,7
+Computer Science,3,3.9,read,text,complete,quiz,NA,NA
+Computer Science,4,4.1,read,text,complete,quiz,NA,NA
+Computer Science,4,4.2,read,text,NA,NA,NA,NA
+Computer Science,4,4.2,watch,video,NA,NA,NA,NA
+Computer Science,4,4.3,watch,video,write,notes,2,1
+Computer Science,4,4.4,offload,assignment,create,code,2,2
+Computer Science,4,4.5,offload,assignment,write,notes,2,3
+Computer Science,4,4.6,offload,assignment,write,post,2,4
+Computer Science,4,4.7,offload,assignment,write,post,2,5
+Computer Science,4,4.8,offload,assignment,record,video,2,6
+Computer Science,4,4.9,read,text,write,post,2,7
+Computer Science,4,4.1O,read,text,complete,quiz,NA,NA
+Computer Science,5,5.1,read,text,complete,quiz,NA,NA
+Computer Science,5,5.2,read,text,NA,NA,NA,NA
+Computer Science,5,5.3,offload,assignment,offload,assignment,,NA
+Computer Science,5,5.4,offload,assignment,write,notes,2,1
+Computer Science,5,5.5,offload,assignment,record,video,2,2
+Computer Science,5,5.6,offload,assignment,offload,assignment,2,3
+Computer Science,5,5.7,offload,assignment,write,notes,2,4
+Computer Science,5,5.8,offload,assignment,record,video,2,5
+Computer Science,5,5.9,offload,assignment,offload,assignment,2,6
+Computer Science,5,5.1O,offload,assignment,write,notes,2,7
+Computer Science,5,5.11,offload,assignment,record,video,2,8
+Computer Science,5,5.12,read,text,complete,quiz,NA,NA
+Computer Science,6,6.1,read,text,complete,quiz,NA,NA
+Computer Science,6,6.2,read,text,NA,NA,NA,NA
+Computer Science,6,6.3,read,text,write,summary,2,1
+Computer Science,6,6.4,watch,video,complete,worksheet,2,2
+Computer Science,6,6.5,NA,NA,create,presentation,3,3
+Computer Science,6,6.6,read,text,complete,quiz,NA,NA
+Computer Science,7,7,NOT YET COMPLETE,NA,NA,NA,NA,NA
