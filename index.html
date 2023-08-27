@@ -57,16 +57,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="wrca_audit_files/libs/clipboard/clipboard.min.js"></script>
-<script src="wrca_audit_files/libs/quarto-html/quarto.js"></script>
-<script src="wrca_audit_files/libs/quarto-html/popper.min.js"></script>
-<script src="wrca_audit_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="wrca_audit_files/libs/quarto-html/anchor.min.js"></script>
-<link href="wrca_audit_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="wrca_audit_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="wrca_audit_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="wrca_audit_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="wrca_audit_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -139,7 +139,7 @@ Lessons per Course
 ' 95%-CI (classic)</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/lesson-distribution-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/lesson-distribution-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -183,7 +183,7 @@ Number of Activities Per Lesson
 ' 95%-CI (classic)</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/activity-distribution-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/activity-distribution-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -208,7 +208,7 @@ Representation Verbs
 3  offload    36   8.2%      437   100.0%</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/rep-verbs-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/rep-verbs-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -237,7 +237,7 @@ Representation Media
 10     research     1   0.2%      438   100.0%</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/rep-media-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/rep-media-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -263,7 +263,7 @@ Expression Verbs
 7    search     1   0.3%      375   100.0%</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/exp-verbs-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/exp-verbs-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -296,7 +296,7 @@ Expression Media
  [list output truncated]</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/exp-media-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/exp-media-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -323,24 +323,41 @@ Depth of Knowledge
 4      4     0   0.0%      293   100.0%</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/dok-distribution-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/dok-distribution-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="depth-of-knowledge-sequences" class="level3">
+<h3 class="anchored" data-anchor-id="depth-of-knowledge-sequences">Depth of Knowledge Sequences</h3>
+<p>The probability that one DOK will be followed by another.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">markovchainFit</span>(wrca_frame<span class="sc">$</span>dok)<span class="sc">$</span>estimate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>MLE Fit 
+ A  3 - dimensional discrete Markov Chain defined by the following states: 
+ 1, 2, 3 
+ The transition matrix  (by rows)  is defined as follows: 
+          1         2          3
+1 0.7000000 0.2500000 0.05000000
+2 0.1038961 0.8246753 0.07142857
+3 0.0000000 0.2962963 0.70370370</code></pre>
 </div>
 </div>
 </section>
 <section id="number-of-lessons-and-average-depth-of-knowledge" class="level3">
 <h3 class="anchored" data-anchor-id="number-of-lessons-and-average-depth-of-knowledge">Number of Lessons and Average Depth of Knowledge</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>nol_frame <span class="ot">&lt;-</span> wrca_frame <span class="sc">|&gt;</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(course, lesson, dok) <span class="sc">|&gt;</span></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">na.omit</span>() <span class="sc">|&gt;</span></span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(course) <span class="sc">|&gt;</span></span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lesson <span class="sc">==</span> <span class="fu">max</span>(lesson)) <span class="sc">|&gt;</span></span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">dok =</span> <span class="fu">median</span>(<span class="fu">as.integer</span>(dok))) <span class="sc">|&gt;</span></span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
-<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unique</span>() <span class="sc">|&gt;</span></span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">dok =</span> <span class="fu">factor</span>(dok, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"1"</span>, <span class="st">"2"</span>, <span class="st">"3"</span>, <span class="st">"4"</span>)))</span>
-<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="fu">Desc</span>(lesson <span class="sc">~</span> dok, nol_frame, <span class="at">main =</span> <span class="st">"Number of Lessons and DOK"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>nol_frame <span class="ot">&lt;-</span> wrca_frame <span class="sc">|&gt;</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(course, lesson, dok) <span class="sc">|&gt;</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">na.omit</span>() <span class="sc">|&gt;</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(course) <span class="sc">|&gt;</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lesson <span class="sc">==</span> <span class="fu">max</span>(lesson)) <span class="sc">|&gt;</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">dok =</span> <span class="fu">median</span>(<span class="fu">as.integer</span>(dok))) <span class="sc">|&gt;</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unique</span>() <span class="sc">|&gt;</span></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">dok =</span> <span class="fu">factor</span>(dok, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"1"</span>, <span class="st">"2"</span>, <span class="st">"3"</span>, <span class="st">"4"</span>)))</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a><span class="fu">Desc</span>(lesson <span class="sc">~</span> dok, nol_frame, <span class="at">main =</span> <span class="st">"Number of Lessons and DOK"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>------------------------------------------------------------------------------ 
 Number of Lessons and DOK
@@ -363,25 +380,25 @@ Kruskal-Wallis rank sum test:
   Kruskal-Wallis chi-squared = 4.963, df = 2, p-value = 0.08362</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/noldok-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/noldok-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
 <section id="number-of-activities-and-average-depth-of-knowledge" class="level3">
 <h3 class="anchored" data-anchor-id="number-of-activities-and-average-depth-of-knowledge">Number of Activities and Average Depth of Knowledge</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>noa_frame <span class="ot">&lt;-</span> wrca_frame <span class="sc">|&gt;</span></span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(course, lesson, sequence, dok) <span class="sc">|&gt;</span></span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">na.omit</span>() <span class="sc">|&gt;</span></span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(course, lesson) <span class="sc">|&gt;</span></span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sequence <span class="sc">==</span> <span class="fu">max</span>(sequence)) <span class="sc">|&gt;</span></span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">dok =</span> <span class="fu">median</span>(<span class="fu">as.integer</span>(dok))) <span class="sc">|&gt;</span></span>
-<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
-<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unique</span>() <span class="sc">|&gt;</span></span>
-<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">dok =</span> <span class="fu">factor</span>(dok, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"1"</span>, <span class="st">"2"</span>, <span class="st">"3"</span>, <span class="st">"4"</span>))) <span class="sc">|&gt;</span></span>
-<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sequence =</span> <span class="fu">as.integer</span>(sequence))</span>
-<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a><span class="fu">Desc</span>(sequence <span class="sc">~</span> dok, noa_frame, <span class="at">main =</span> <span class="st">"Number of Activities and DOK"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>noa_frame <span class="ot">&lt;-</span> wrca_frame <span class="sc">|&gt;</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(course, lesson, sequence, dok) <span class="sc">|&gt;</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">na.omit</span>() <span class="sc">|&gt;</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(course, lesson) <span class="sc">|&gt;</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sequence <span class="sc">==</span> <span class="fu">max</span>(sequence)) <span class="sc">|&gt;</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">dok =</span> <span class="fu">median</span>(<span class="fu">as.integer</span>(dok))) <span class="sc">|&gt;</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unique</span>() <span class="sc">|&gt;</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">dok =</span> <span class="fu">factor</span>(dok, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"1"</span>, <span class="st">"2"</span>, <span class="st">"3"</span>, <span class="st">"4"</span>))) <span class="sc">|&gt;</span></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sequence =</span> <span class="fu">as.integer</span>(sequence))</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a><span class="fu">Desc</span>(sequence <span class="sc">~</span> dok, noa_frame, <span class="at">main =</span> <span class="st">"Number of Activities and DOK"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>------------------------------------------------------------------------------ 
 Number of Activities and DOK
@@ -404,7 +421,7 @@ Kruskal-Wallis rank sum test:
   Kruskal-Wallis chi-squared = 3.3114, df = 2, p-value = 0.191</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/noadok-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/noadok-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -412,11 +429,11 @@ Kruskal-Wallis rank sum test:
 <h3 class="anchored" data-anchor-id="sequence-and-depth-of-knowledge">Sequence and Depth of Knowledge</h3>
 <p>Does the <em>activity sequence</em> impact the identified <em>depth of knowledge</em>?</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>wrca_frame<span class="sc">$</span>sequence <span class="ot">&lt;-</span> <span class="fu">factor</span>(wrca_frame<span class="sc">$</span>sequence,</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>                              <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"1"</span>, <span class="st">"2"</span>, <span class="st">"3"</span>, <span class="st">"4"</span>, <span class="st">"5"</span>, <span class="st">"6"</span>, <span class="st">"7"</span>, <span class="st">"8"</span>, <span class="st">"9"</span>, <span class="st">"10"</span>, <span class="st">"11"</span>))</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>wrca_frame<span class="sc">$</span>dok <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(wrca_frame<span class="sc">$</span>dok)</span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="fu">Desc</span>(sequence <span class="sc">~</span> dok, wrca_frame, <span class="at">plotit =</span> <span class="cn">TRUE</span>, <span class="at">main =</span> <span class="st">"Sequence and Depth of Knowledge"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>wrca_frame<span class="sc">$</span>sequence <span class="ot">&lt;-</span> <span class="fu">factor</span>(wrca_frame<span class="sc">$</span>sequence,</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>                              <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"1"</span>, <span class="st">"2"</span>, <span class="st">"3"</span>, <span class="st">"4"</span>, <span class="st">"5"</span>, <span class="st">"6"</span>, <span class="st">"7"</span>, <span class="st">"8"</span>, <span class="st">"9"</span>, <span class="st">"10"</span>, <span class="st">"11"</span>))</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>wrca_frame<span class="sc">$</span>dok <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(wrca_frame<span class="sc">$</span>dok)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="fu">Desc</span>(sequence <span class="sc">~</span> dok, wrca_frame, <span class="at">plotit =</span> <span class="cn">TRUE</span>, <span class="at">main =</span> <span class="st">"Sequence and Depth of Knowledge"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>------------------------------------------------------------------------------ 
 Sequence and Depth of Knowledge
@@ -470,27 +487,27 @@ Proportions of sequence in the quantiles of dok:
   11    0.0%    0.6%    0.0%</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/sdok-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/sdok-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>noa2_frame <span class="ot">&lt;-</span> wrca_frame <span class="sc">|&gt;</span></span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(course, lesson, sequence, dok) <span class="sc">|&gt;</span></span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">na.omit</span>() <span class="sc">|&gt;</span></span>
-<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(course, lesson, sequence) <span class="sc">|&gt;</span></span>
-<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(dok <span class="sc">==</span> <span class="fu">max</span>(<span class="fu">as.numeric</span>(dok))) <span class="sc">|&gt;</span></span>
-<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
-<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unique</span>() <span class="sc">|&gt;</span></span>
-<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> sequence, <span class="at">values_from =</span> dok, <span class="at">names_prefix =</span> <span class="st">"activity_"</span>)</span>
-<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>dok.alphab <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"1"</span>, <span class="st">"2"</span>, <span class="st">"3"</span>, <span class="st">"4"</span>)</span>
-<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>dok.seq <span class="ot">&lt;-</span> <span class="fu">seqdef</span>(noa2_frame, <span class="dv">3</span><span class="sc">:</span><span class="dv">13</span>, <span class="at">xtstep =</span> <span class="dv">1</span>, <span class="at">alphabet =</span> dok.alphab)</span>
-<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a><span class="fu">seqIplot</span>(dok.seq, <span class="at">border =</span> <span class="cn">NA</span>, <span class="at">with.legend =</span> <span class="st">"right"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>noa2_frame <span class="ot">&lt;-</span> wrca_frame <span class="sc">|&gt;</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(course, lesson, sequence, dok) <span class="sc">|&gt;</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">na.omit</span>() <span class="sc">|&gt;</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(course, lesson, sequence) <span class="sc">|&gt;</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(dok <span class="sc">==</span> <span class="fu">max</span>(<span class="fu">as.numeric</span>(dok))) <span class="sc">|&gt;</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unique</span>() <span class="sc">|&gt;</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> sequence, <span class="at">values_from =</span> dok, <span class="at">names_prefix =</span> <span class="st">"activity_"</span>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>dok.alphab <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"1"</span>, <span class="st">"2"</span>, <span class="st">"3"</span>, <span class="st">"4"</span>)</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>dok.seq <span class="ot">&lt;-</span> <span class="fu">seqdef</span>(noa2_frame, <span class="dv">3</span><span class="sc">:</span><span class="dv">13</span>, <span class="at">xtstep =</span> <span class="dv">1</span>, <span class="at">alphabet =</span> dok.alphab)</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="fu">seqIplot</span>(dok.seq, <span class="at">border =</span> <span class="cn">NA</span>, <span class="at">with.legend =</span> <span class="st">"right"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/noadok2-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/noadok2-1.png" class="img-fluid" width="672"></p>
 </div>
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>trate <span class="ot">&lt;-</span> <span class="fu">seqtrate</span>(dok.seq)</span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">round</span>(trate, <span class="dv">2</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>trate <span class="ot">&lt;-</span> <span class="fu">seqtrate</span>(dok.seq)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">round</span>(trate, <span class="dv">2</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="table table-sm table-striped small">
 <thead>
@@ -534,9 +551,9 @@ Proportions of sequence in the quantiles of dok:
 </tbody>
 </table>
 </div>
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqHtplot</span>(dok.seq, <span class="at">with.legend =</span> <span class="st">"right"</span>, <span class="at">legend.prop=</span><span class="fl">0.4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqHtplot</span>(dok.seq, <span class="at">with.legend =</span> <span class="st">"right"</span>, <span class="at">legend.prop=</span><span class="fl">0.4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="wrca_audit_files/figure-html/noadok2-2.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/noadok2-2.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -547,7 +564,7 @@ Proportions of sequence in the quantiles of dok:
 
 <p>Session information is provided for reproducibility purposes.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>sessioninfo<span class="sc">::</span><span class="fu">session_info</span>(<span class="at">pkgs =</span> <span class="st">"attached"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>sessioninfo<span class="sc">::</span><span class="fu">session_info</span>(<span class="at">pkgs =</span> <span class="st">"attached"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>─ Session info ───────────────────────────────────────────────────────────────
  setting  value
@@ -559,18 +576,19 @@ Proportions of sequence in the quantiles of dok:
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       America/Indiana/Indianapolis
- date     2023-08-25
+ date     2023-08-27
  pandoc   3.1.4 @ /opt/homebrew/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
- package   * version date (UTC) lib source
- DescTools * 0.99.49 2023-05-17 [1] CRAN (R 4.3.0)
- dplyr     * 1.1.2   2023-04-20 [1] CRAN (R 4.3.0)
- ggplot2   * 3.4.2   2023-04-03 [1] CRAN (R 4.3.0)
- here      * 1.0.1   2020-12-13 [1] CRAN (R 4.3.0)
- readr     * 2.1.4   2023-02-10 [1] CRAN (R 4.3.0)
- tidyr     * 1.3.0   2023-01-24 [1] CRAN (R 4.3.0)
- TraMineR  * 2.2-7   2023-03-31 [1] CRAN (R 4.3.0)
+ package     * version date (UTC) lib source
+ DescTools   * 0.99.49 2023-05-17 [1] CRAN (R 4.3.0)
+ dplyr       * 1.1.2   2023-04-20 [1] CRAN (R 4.3.0)
+ ggplot2     * 3.4.2   2023-04-03 [1] CRAN (R 4.3.0)
+ here        * 1.0.1   2020-12-13 [1] CRAN (R 4.3.0)
+ markovchain * 0.9.3   2023-05-18 [1] CRAN (R 4.3.0)
+ readr       * 2.1.4   2023-02-10 [1] CRAN (R 4.3.0)
+ tidyr       * 1.3.0   2023-01-24 [1] CRAN (R 4.3.0)
+ TraMineR    * 2.2-7   2023-03-31 [1] CRAN (R 4.3.0)
 
  [1] /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
 

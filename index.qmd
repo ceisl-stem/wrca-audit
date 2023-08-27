@@ -11,6 +11,7 @@ library(dplyr)
 library(DescTools)
 library(TraMineR)
 library(tidyr)
+library(markovchain)
 
 # load in data
 wrca_frame <- read_csv(
@@ -132,6 +133,14 @@ Desc(wrca_frame$exp_object, plotit = TRUE, main = "Expression Media")
 ```{r dok-distribution}
 wrca_frame$dok <- factor(wrca_frame$dok, level = c("1", "2", "3", "4"))
 Desc(wrca_frame$dok, plotit = TRUE, main = "Depth of Knowledge")
+```
+
+### Depth of Knowledge Sequences
+
+The probability that one DOK will be followed by another.
+
+```{r markov}
+markovchainFit(wrca_frame$dok)$estimate
 ```
 
 ### Number of Lessons and Average Depth of Knowledge
